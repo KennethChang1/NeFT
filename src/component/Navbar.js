@@ -4,7 +4,7 @@ const Navbar = () => {
     <header>
       <nav className="nav">
         <img src={logo} alt="logo" />
-        <a href="#">
+        <a href="/home">
           <button className="btn btn--primary">Launch App</button>
         </a>
       </nav>

@@ -116,6 +116,7 @@ header {
 
 .card--center {
   text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .card--home {
@@ -183,7 +184,6 @@ header {
 }
 
 .footer-container {
-  padding-left: 10px;
   margin-bottom: 20px;
 }
 
@@ -192,20 +192,40 @@ header {
   margin-bottom: 5px;
 }
 
-.footer-title {
+.footer__title {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 10px;
 }
 
-.socials {
+.footer__links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 10px;
+  margin-top: 10px;
+}
+
+.footer__links > a {
+  text-decoration: none;
+  color: black;
+  opacity: 60%;
+}
+
+.footer__logo {
+  width: 15px;
 }
 
 .footer-logo {
   margin-bottom: 16px;
+}
+
+.application {
+  background-color: black;
+  color: white;
 }
 /*# sourceMappingURL=styles.css.map */

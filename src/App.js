@@ -2,16 +2,26 @@ import TradingPage from "./component/TradingPage";
 import Navbar from "./component/Navbar";
 import Home from "./pages/Home";
 import Footer from "./component/Footer";
-import { useEffect, useState } from "react";
+import Application from "./pages/Application";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <div className="home">
-        <Navbar></Navbar>
-        <Home></Home>
-        <Footer></Footer>
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route exact path="/">
+            <div className="home">
+              <Navbar></Navbar>
+              <Home></Home>
+              <Footer></Footer>
+            </div>
+          </Route>
+          <Route exact path="/home">
+            <Application></Application>
+          </Route>
+        </Switch>
       </div>
-    </div>
+    </Router>
   );
 }
 
