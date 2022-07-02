@@ -10,14 +10,19 @@ const Home = () => {
         <h3 className="card__title card__title--featured">NeFT features</h3>
         <Article
           image="buy"
-          title="Trade cryptocurrencies"
-          copy="To begin trading cryptocurrency, fund your cryptocurrency wallet. You
+          title="Buy and sell cryptocurrencies"
+          copy="To begin buying and selling cryptocurrency, fund your cryptocurrency wallet. You
         can add funds using a variety of payment methods."
         ></Article>
         <Article
           image="stake"
           title="Stake your crypto"
           copy="By staking your assets with NeFT, you can earn up to 15% in annual rewards. Staking takes merely a few clicks."
+        ></Article>
+        <Article
+          image="leverage"
+          title="Leverage trading"
+          copy="Trade with up to 10x leverage"
         ></Article>
       </div>
     </main>

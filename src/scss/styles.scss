@@ -8,6 +8,7 @@ body{
 header{
     position: sticky;
     top: 0;
+    z-index: 9999;
 }
 
 .nav{
@@ -119,4 +120,29 @@ header{
     font-size: 15px;
     opacity: 70%;
     line-height: 20px;
+}
+
+.footer-container{
+    padding-left: 10px;
+    margin-bottom: 20px;
+
+    > a{
+        display: block;
+        margin-bottom: 5px;
+    }
+}
+
+.footer-title{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.socials{
+    display: flex;
+    gap: 10px;
+}
+
+.footer-logo{
+    margin-bottom: 16px;
 }
