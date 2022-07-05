@@ -1,11 +1,11 @@
 import Header from "../component/Header";
 import Popular from "../component/Popular";
 import Article from "../component/Article";
-const Home = () => {
+const Home = ({ price }) => {
   return (
     <main>
       <Header></Header>
-      <Popular></Popular>
+      <Popular price={price}></Popular>
       <div className="card card--center">
         <h3 className="card__title card__title--featured">NeFT features</h3>
         <Article

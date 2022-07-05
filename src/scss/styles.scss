@@ -33,6 +33,12 @@ header{
         width: 100%;
         height: 40px;
     }
+
+    &--balance{
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 5px;
+    }
 }
 
 .card{
@@ -145,8 +151,6 @@ header{
     margin-top: 10px;
 
     > a{
-        text-decoration: none;
-        color: black;
         opacity: 60%;
     }
 }
@@ -159,8 +163,66 @@ header{
     margin-bottom: 16px;
 }
 
-//trading page
-.application{
-    background-color: black;
-    color: white;
+//app page
+.app-nav{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.home-header-wrapper > *{
+    margin-bottom: 10px;
+}
+
+.balance-btn-wrapper{
+    display: flex;
+    gap: 5px;
+}
+
+.balance-title{
+    opacity: 50%;
+}
+
+//trading
+
+.trading-wrapper{
+    padding: 2%;
+    > *{
+        margin-bottom: 10px;
+    }
+}
+
+.ticker-title{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.price-up{
+    color: rgb(14, 203, 129);;
+}
+
+.price-down{
+    color: red;
+}
+
+.orderform{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.orderform-title{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.orderform-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.orderform-input{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(238, 234, 244);
+    border: none;
+    padding: 10px;
 }
