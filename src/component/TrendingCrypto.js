@@ -1,6 +1,6 @@
 const TrendingCrypto = ({ price, name }) => {
   return (
-    <a href={`/home/${name}`}>
+    <a href={`/NeFT/home/${name}`}>
       <div className="trending-list">
         <img
           className="trending-logo"
