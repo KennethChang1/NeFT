@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/NeFT/static/css/main.cd8dce71.css",
-    "main.js": "/NeFT/static/js/main.37c30962.js",
+    "main.js": "/NeFT/static/js/main.923ae026.js",
     "static/media/chainlink.png": "/NeFT/static/media/chainlink.92751ec22831a5f69edb.png",
     "static/media/polkadot.png": "/NeFT/static/media/polkadot.2c20a9ae686fb3472ac4.png",
     "static/media/bitcoin.png": "/NeFT/static/media/bitcoin.e5d84ddac06aa7d93845.png",
     "index.html": "/NeFT/index.html",
     "main.cd8dce71.css.map": "/NeFT/static/css/main.cd8dce71.css.map",
-    "main.37c30962.js.map": "/NeFT/static/js/main.37c30962.js.map"
+    "main.923ae026.js.map": "/NeFT/static/js/main.923ae026.js.map"
   },
   "entrypoints": [
     "static/css/main.cd8dce71.css",
-    "static/js/main.37c30962.js"
+    "static/js/main.923ae026.js"
   ]
 }
